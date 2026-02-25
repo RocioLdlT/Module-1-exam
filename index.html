@@ -11,11 +11,13 @@
     <link rel="icon" type="images/png" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index.css" />
-    <link href="https://fonts.google.com/specimen/Overpass" rel="stylesheet">
-    <!-- <link -->
-    <!-- rel="" -->
-    <!-- href="https://github.com/RocioLdlT/Module-1-exam/settings/pages" -->
-    <!-- /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="index.js" defer></script>
   </head>
   <body>
@@ -35,39 +37,40 @@
           Todos los comentarios son bienvenidos para ayudarnos a mejorar nuestra
           oferta!
         </p>
-        <fieldset>
-          <form action="/select-calificatión" method="post">
-            <input type="radio" id="circle1" name="calification1" value="1"/>
+        <form id="form" target="_self">
+          <fieldset>
+            <input
+              type="radio"
+              id="circle1"
+              name="calification"
+              value="1"
+              required
+            />
             <label for="circle1">1</label>
 
-            <input type="radio" id="circle2" name="calification2" value="2" />
+            <input type="radio" id="circle2" name="calification" value="2" />
             <label for="circle2">2</label>
 
-            <input type="radio" id="circle3" name="calification3" value="3" />
+            <input type="radio" id="circle3" name="calification" value="3" />
             <label for="circle3">3</label>
 
-            <input type="radio" id="circle4" name="calification4" value="4" />
+            <input type="radio" id="circle4" name="calification" value="4" />
             <label for="circle4">4</label>
 
-            <input type="radio" id="circle5" name="calification5" value="5" />
+            <input type="radio" id="circle5" name="calification" value="5" />
             <label for="circle5">5</label>
-          </form>
-        </fieldset>
+          </fieldset>
+          <button type="submit">Enviar</button>
+        </form>
       </section>
       <section>
-        <img
-          src="./images/illustration-thank-you.svg"
-          alt=" dibujo de un dispositivo gris y negro de donde sale una factura con rayas blancas y un círculo y una tarjeta a los laterales de color naranja"
-        />
-        <form action="/select-calification" method="post">
-          <input
-            type="radio"
-            id="select"
-            name="post-calification"
-            value="Seleccionaste 4 d 5"
+        <header>
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt=" dibujo de un dispositivo gris y negro de donde sale una factura con rayas blancas y un círculo y una tarjeta a los laterales de color naranja"
           />
-          <label for="select">Seleccionaste 4 de 5</label>
-        </form>
+        </header>
+        <span class="rating">Seleccionaste 4 de 5</span>
         <h2>¡Gracias!</h2>
         <p>
           Agradecemos que te hayas tomado el tiempo de dar una calificación.

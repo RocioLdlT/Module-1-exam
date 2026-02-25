@@ -1,18 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Calificación del servicio prestado por parte del usuario mediante estrellas">
-  <title>Valoración del servicio</title>
-  <link rel="icon" type="images/png" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="index.css" />
-  <script src="index.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Calificación del servicio prestado por parte del usuario mediante estrellas"
+    />
+    <title>Valoración del servicio</title>
+    <link rel="icon" type="images/png" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link -->
+    <!-- rel="" -->
+    <!-- href="https://github.com/RocioLdlT/Module-1-exam/settings/pages" -->
+    <!-- /> -->
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <img
+            src="./images/icon-star.svg"
+            alt="estrella pequeña naranja de cinco puntas"
+          />
+          <h1>¿Cómo lo hicimos?</h1>
+        </header>
+        <p>
+          Por favor, haznos saber cómo lo hicimos con tu solicitud de soporte.
+        </p>
+        <p>
+          Todos los comentarios son bienvenidos para ayudarnos a mejorar nuestra
+          oferta!
+        </p>
+        <form action="/select-calificatión" method="post">
 
-</head>
-<body>
+          <input type="radio" id="circle1" name="calification1" value="1"/>
+          <label for="circle1">1</label>
 
-  
-</body>
+          <input type="radio" id="circle2" name="calification2" value="2" />
+          <label for="circle2">2</label>
+
+          <input type="radio" id="circle3" name="calification3" value="3" />
+          <label for="circle3">3</label>
+
+          <input type="radio" id="circle4" name="calification4" value="4" />
+          <label for="circle4">4</label>
+
+          <input type="radio" id="circle5" name="calification5" value="5" />
+          <label for="circle5">5</label>
+        </form>
+        <form action="" method="post">
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      <section>
+        <header>
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt=" dibujo de un dispositivo gris y negro de donde sale una factura con rayas blancas y un círculo y una tarjeta a los laterales de color naranja"
+          />
+          <h1>¡Gracias!</h1>
+        </header>
+        <p>
+          Agradecemos que te hayas tomado el tiempo de dar una calificación.
+        </p>
+        <p>
+          Si alguna vez necesitas más ayuda, no dudes en volver a ponerte en
+          contacto con nosotros
+        </p>
+      </section>
+    </main>
+  </body>
 </html>

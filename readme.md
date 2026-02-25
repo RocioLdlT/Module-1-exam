@@ -9,9 +9,9 @@ https://rocioldlt.github.io/Module-1-exam/
 
 
 ## Tabla de Contenidos
-- [Características](#-características)
-- [Requisitos previos](#-requisitos-previos-para-la-realización-del-proyecto)
-- [Instalación](#-instalación)
+- [Características](#características)
+- [Requisitos previos](#requisitos-previos-para-la-realización-del-proyecto)
+- [Instalación](#instalación)
 
 
 
